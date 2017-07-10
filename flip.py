@@ -1,7 +1,7 @@
 import random
 print('Type roll when ready.')
 
-roll = random(0, 1)
+roll = random.randint(0, 1)
 def munch():
     if roll == 1:
         print('you win')
